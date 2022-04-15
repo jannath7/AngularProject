@@ -1,0 +1,13 @@
+
+<mat-card class="service-card">
+    <mat-card-header>
+      <mat-card-title>{{current.title}}</mat-card-title>
+      
+    </mat-card-header>
+  <a href='/home/{{current.id}}'><img mat-card-image src="http://localhost:8090/{{current.image}}" alt="Photo of a Shiba Inu" ></a>
+    <mat-card-content>
+     {{current.title}}<br/>
+     {{current.description}}<br/>
+    </mat-card-content>
+    
+  </mat-card>
